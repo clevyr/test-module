@@ -1,0 +1,20 @@
+{
+    "name": "clevyr/test",
+    "description": "",
+    "type": "laravel-module",
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Modules\\Test\\Providers\\TestServiceProvider"
+            ],
+            "aliases": {
+
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\Test\\": ""
+        }
+    }
+}
